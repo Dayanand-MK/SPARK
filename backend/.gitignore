@@ -1,0 +1,17 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local databases and generated data
+qdrant_data/
+*.db
+
+# Testing and local secrets
+.pytest_cache/
+.streamlit/secrets.toml

@@ -1,0 +1,11 @@
+.venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+backend/qdrant_data/
+backend/__pycache__/
+.pytest_cache/
+.streamlit/secrets.toml
